@@ -1,0 +1,42 @@
+// JavaScript Document
+jQuery('#custom-tes-owl').owlCarousel({
+    loop:true,
+    margin:70,
+    nav:false,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+		900:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+jQuery('#service-gal-owl').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+		900:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+});

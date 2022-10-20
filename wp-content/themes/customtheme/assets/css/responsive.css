@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 1200px) and (max-width: 1384px){
+	.header-btm nav ul li a {padding: 18px 30px !important;}
+	.header-btn {padding-left: 12px;}
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+	.header-btm nav ul li a {padding: 18px 30px !important;}
+	.header-btn {padding-left: 6px;font-size: 14px;}
+	.header-btn span {padding: 16px 14px;margin-left: 4px;}
+	.header-btm nav ul li a {padding: 18px 17px !important;}
+	.cus-consult-left {padding: 86px 10px 86px 0;}
+	.hair-trans-con p {font-size: 14px;}
+	.hair-trans-item-wrap {padding: 80px 40px 30px;}
+	.what-we-do-con h4 {padding: 0 10px;font-size: 15px;line-height: 24px;}
+	.unit-imhg {right: 0px;}
+	.unit-imhg img {width: 70%;}
+	.diffrence-item-wrap::before {border-right: 220px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 220px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 220px solid white;}
+	.diffrence-item-wrap {padding: 20px;min-height: 370px;}
+	.diff-con h4 {font-size: 16px;}
+	.custom-heading h3 {font-size: 28px;line-height: 40px;}
+	.custom-footer {overflow-x: hidden;}
+	.footer-col a {padding: 0 54px;}
+	.footer-btm-left p {font-size: 13px;}
+	.footer-btm-right ul li a {font-size: 15px;}
+	.con-info-wrap a {font-size: 12px;}
+	.custom-map-dp iframe {height: 329px;}
+	.inner-banner {padding: 57px 0;}
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+		.header-btm nav ul li a {padding: 18px 30px !important;}
+	.header-btn {padding-left: 6px;font-size: 14px;}
+	.header-btn span {padding: 16px 14px;margin-left: 4px;}
+	.header-btm nav ul li a {padding: 18px 14px !important;}
+	.cus-consult-left {padding: 86px 10px 86px 0;}
+	.hair-trans-con p {font-size: 14px;}
+	.hair-trans-item-wrap {padding: 80px 30px 30px;}
+	.what-we-do-con h4 {padding: 0 10px;font-size: 15px;line-height: 24px;}
+	.unit-imhg {right: 0px;}
+	.unit-imhg img {width: 70%;}
+	.diffrence-item-wrap::before {border-right: 220px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 220px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 220px solid white;}
+	.diffrence-item-wrap {padding: 20px;min-height: 400px;}
+	.diff-con h4 {font-size: 16px;}
+	.custom-heading h3 {font-size: 28px;line-height: 40px;}
+	.custom-footer {overflow-x: hidden;}
+	.footer-col a {padding: 0 54px;}
+	.footer-btm-left p {font-size: 13px;}
+	.footer-btm-right ul li a {font-size: 15px;}
+	.what-we-do-con h4 {min-height: 70px;}
+	.what-we-do-con {padding: 20px;}
+	.con-info-wrap a {font-size: 12px;}
+	.custom-map-dp iframe {height: 329px;}
+	.inner-banner {padding: 57px 0;}
+}
+
+@media only screen and (max-width: 991px) {    
+   .navbar-toggle {float: left;margin: 0;height: 39px;width: 47px;border-radius: 0;z-index: 1;border: 2px solid #114366;}
+.navbar-toggle .icon-bar { width: 24px; background-color: #114366;transition: .5s ease;}
+.navbar-toggle.collapsed .icon-bar:nth-child(2){transform: rotate(0)translateY(0)translateX(0);}
+.navbar-toggle.collapsed .icon-bar:nth-child(3){opacity:1}
+.navbar-toggle.collapsed .icon-bar:nth-child(4){transform:rotate(0)translateY(0)translateX(0);}
+.navbar-toggle .icon-bar:nth-child(2){transform: rotate(-45deg)translateY(5px)translateX(-5px);}
+.navbar-toggle .icon-bar:nth-child(3){opacity: 0}
+.navbar-toggle .icon-bar:nth-child(4){transform:rotate(45deg)translateY(-4px)translateX(-3px);}
+.navbar-header {display: block;margin-right: 0;}
+	
+	.dp-caption {transform: translateY(0%);top: 0;margin-top: 30px;}
+	.custom-banner img {height: 400px;object-position: 70% 100%;}
+	.dp-caption h2 {font-size: 58px;line-height: 58px;}
+	.carousel-caption.dp-caption p {font-size: 20px;}
+	.cus-consult-left {padding: 40px 20px 40px 0;}
+	.custom-pad {padding: 40px 0 50px;}
+	.dp-caption .col-md-12 {background-color: rgba(255,255,255,0.26);padding: 20px 15px;}
+	.custom-doc-img {padding-left: 60px;padding-right: 60px;}
+	.cus-doc-content {margin-top: 20px;}
+	.custom-heading h3 {font-size: 32px;line-height: 44px;padding-bottom: 10px !important;margin-bottom: 12px !important;}
+	.cus-doc-content h6 {font-size: 16px;line-height: 31px;margin-bottom: 10px;}
+	.cus-doc-content p {margin-bottom: 10px;}
+	.hair-trans-item-wrap {margin-bottom: 130px;padding: 110px 40px 30px;}
+	.custom-hair-transplant .col-md-8 .hair-trans-item-wrap {padding-top: 184px;margin-bottom: 0}
+	.what-we-do-item-wrap {margin-bottom: 20px;}
+	.what-we-do-custom .container .row .col-md-6:nth-child(3) .what-we-do-item-wrap , .what-we-do-custom .container .row .col-md-6:nth-child(4) .what-we-do-item-wrap{margin-bottom: 0px;}
+	.unit-imhg {right: 0px;top: 40px;}
+	.unit-imhg img {width: 50%;}
+	.unit-trans-list li {width: 100%;}
+	.unit-trans-list li:nth-child(1) , .unit-trans-list li:nth-child(2)  {width: 72%;}
+	.custom-heading p {font-size: 15px;margin-bottom: 20px;line-height: 20px;}
+	.hair-trans-top-wrap {margin-bottom: 122px;}
+	.custom-diffrence .custom-heading p {margin-bottom: 60px;}
+	.diffrence-item-wrap {margin-bottom: 56px;min-height: 324px;}
+	.custom-diffrence .container .row .col-md-6:nth-child(3) .diffrence-item-wrap, .custom-diffrence .container .row .col-md-6:nth-child(4) .diffrence-item-wrap {margin-bottom: 0;}
+	.custom-plastic-sergon .custom-btn {margin-top: 30px;}
+	.its-here-img img {width: 60%;}
+	.its-here-img {text-align: center;margin-bottom: 30px;}
+	.dp-video-wrap {margin-bottom: 20px;}
+	.custom-video .container .row .col-md-8:nth-child(2) .dp-video-wrap {margin-bottom: 0px;}
+	.footer-col a {padding: 0 10px;}
+	.custom-footer {padding-top: 40px;overflow-x: hidden;}
+	.footer-col h4 {margin-bottom: 10px;}
+	.footer-btm-left p {font-size: 14px;}
+	.footer-social {text-align: right;}
+	.footer-btm-right ul {text-align: center;}
+	.footer-btm-right ul li a {font-size: 14px;}
+	.footer-btm-right ul li {margin-left: 0;margin: 0 4px;}
+	.footer-btm-right {margin-top: 20px;}
+	.navbar-brand {display: block;margin-left: 0;}
+	.header-middle {padding: 16px 0;}
+	.header-btm {padding: 10px 0;}
+	.custom-header {position: absolute;width: 100%;left: 0;right: 0;z-index: 9;background-color: #fff;top: 0}
+	.custom-banner {margin-top: 200px;}
+	.header-btm nav ul li {border-right: 0;margin-left: 0;width: 100%;}
+	.header-btm nav ul li a {padding-left: 0 !important;padding-bottom: 10px !important;margin-bottom: 10px;border-bottom: 1px dashed;padding-top: 0 !important;}
+	.dropdown-menu {padding: 20px;}
+	.dropdown-item:hover{background-color: transparent;}
+	.inner-bread {margin-top: 10px;}
+	.inner-banner-content h3 {font-size: 42px;}
+	.inner-banner {padding: 50px 0;margin-top: 196px;}
+	.custom-con-frm-wrap {margin-bottom: 40px;}
+	.hair-loss-decision-img {margin-top: 40px;margin-bottom: 50px;}
+	.hair-loss-decision-content h5 {font-size: 16px;}
+	.dp-submit-btn {height: 60px;}
+	.custom-con-frm-wrap {padding: 20px;}
+	.dr-stoller-vid-wrap {margin-bottom: 20px;}
+	.exp-list-dp {min-height: auto;}
+	.exp-logo-dp {text-align: center;margin: 20px 0;}
+	.exp-logo-dp img {width: 50%;margin: 0 auto;}
+	.teacher-leader-img {margin-bottom: 20px;}
+	.teacher-leader-content ul {column-count: 1;}
+	.custom-consult-content {margin-bottom: 30px;}
+}
+
+
+@media (max-width: 767px){
+    .header-top-left a p {display: none;}
+	.header-top-left span {width: 30px;height: 30px;border: 2px solid #fff;display: inline-block;border-radius: 50%;text-align: center;
+    font-size: 12px;line-height: 26px;}
+	.header-top-left a span i {font-size: 10px;}
+	.header-middle-middle p {display: none;}
+	.header-middle-middle a span {height: 40px;width: 40px;line-height: 42px;top: 12px;left: 0;font-size: 14px;}
+	.header-btn span {padding: 8px 13px;margin-left: 8px;font-size: 12px;}
+	.header-btn {font-size: 13px;}
+	.header-social li img {width: 30px;}
+	.header-social li {margin-left: 4px;}
+	.dp-caption h2 {font-size: 38px;line-height: 38px;}
+	.custom-banner img {height: 300px;object-position: 80% 100%;}
+	.dp-caption {margin-top: 18px;}
+	.dp-caption .col-md-12 {background-color: rgba(255,255,255,0.46);}
+	.carousel-caption.dp-caption p {font-size: 18px;font-weight: 500;line-height: 22px;}
+	.cus-consult-left::after {content: '';position: absolute;right: -15px;top: 0;bottom: 0;height: 100%;width: 15px;background-color: #114366;}
+	.cus-consult-left {margin-bottom: 30px;}
+	.cus-consult-right {padding-bottom: 40px;}
+	.custom-doc-img {padding-left: 0px;padding-right: 0;}
+	.custom-doc-img img {height: 340px;object-fit: cover;object-position: 100% 20%;}
+	p {font-size: 14px;line-height: 24px;}
+	.custom-heading h3 {font-size: 24px;line-height: 28px;}
+	.hair-trans-item-wrap {padding: 120px 20px 30px;}
+	.custom-hair-transplant .col-md-8 .hair-trans-item-wrap {padding-top: 120px;}
+	.what-we-do-con h4 {font-size: 18px;line-height: 24px;}
+	.what-we-do-custom .container .row .col-md-6:nth-child(3) .what-we-do-item-wrap {margin-bottom: 20px;}
+	.unit-trans-list .media span {height: 40px;width: 40px;text-indent: 13px;line-height: 38px;margin-right: 6px;}
+	.unit-trans-list li span img {width: 15px;}
+	.unit-trans-list li:nth-child(1){width: 61%;}
+	.unit-trans-list li:nth-child(2){width: 100%;}
+	.unit-imhg img {width: 40%;}
+	.unit-trans-list li p {padding-right: 0;}
+	.unit-trans-list li h5 {margin-bottom: 2px;margin-top: 6px !important;}
+	.diffrence-item-wrap {min-height: auto;}
+	.custom-diffrence .container .row .col-md-6:nth-child(3) .diffrence-item-wrap{margin-bottom: 56px;}
+	.diffrence-item-wrap::before {border-right: 440px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 440px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 440px solid white;}
+	.plastic-sergon-img img {width: 70%;margin: 0 auto;}
+	.plastic-sergon-img{text-align: center;}
+	.custom-sergon-list ul li span {height: 40px;width: 40px;text-indent: 11px;line-height: 38px;margin-right: 10px;}
+	.custom-sergon-list ul li h5 {font-size: 18px;margin-bottom: 4px;}
+	.cus-its-content.custom-sergon-list ul li img {width: 17px;}
+	.footer-btm-left {text-align: center;margin-bottom: 12px;}
+	.footer-social {text-align: center;}
+	.footer-btm-right {margin-top: 12px;}
+	.custom-banner {margin-top: 174px;}
+	.inner-banner-content h3 {font-size: 24px;}
+	.inner-banner {padding: 22px 0;margin-top: 176px;}
+	.inner-bread ul li a{font-size: 15px;}
+	.inner-bread ul li {font-size: 15px;}
+	.con-info-wrap {margin-bottom: 20px;}
+	.custom-map-dp {margin-top: 0px;}
+	.custom-consult {text-align: center;}
+	.custom-consult-content .custom-heading h3::after {margin: 0 auto;right: 0;}
+	.custom-consult-content .custom-heading p {font-size: 16px;}
+}
+@media only screen and (max-width: 480px) {	
+    .diffrence-item-wrap::before {border-right: 370px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 370px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 370px solid white;}
+	.contact-wrap-dp form input {height: 50px;}
+	.hair-loss-decision-img::before {top: -17px;}
+}
+@media only screen and (max-width: 390px) {
+	.diffrence-item-wrap::before {border-right: 310px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 310px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 310px solid white;}
+	.custom-heading h3 {font-size: 18px;line-height: 25px;}
+	.carousel-caption.dp-caption p {font-size: 16px;}
+	.custom-consult h3 {font-size: 18px;margin-bottom: 8px;}
+	.custom-consult p {font-size: 14px;line-height: 22px;margin-bottom: 10px;}
+	.cus-doc-content h6 {font-size: 14px;line-height: 24px;}
+	.custom-hair-transplant .col-md-8 .hair-trans-item-wrap {padding-top: 90px;}
+	.hair-trans-item-wrap {padding: 90px 20px 30px;}
+	.what-we-do-con h4 {font-size: 15px;}
+	.custom-btn {padding: 8px 30px 8px 20px;}
+	.custom-btn span {right: 12px;}
+	.unit-trans-list li h5 {font-size: 16px;}
+	.dp-submit-btn {height: 58px;}
+	.custom-footer .container:nth-child(2) {padding: 40px 0 0;}
+	.footer-btm-right ul li a {font-size: 12px;}
+	.footer-btm-left p {font-size: 13px;}
+	.footer-logo img {width: 60%;}
+	.footer-logo {margin-bottom: 30px;}
+}	
+
+@media only screen and (max-width: 350px) {
+	.diffrence-item-wrap::before {border-right: 280px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(2) .diffrence-item-wrap::before {border-left: 280px solid white;}
+	.custom-diffrence .container .row .col-lg-3:nth-child(4) .diffrence-item-wrap::before {border-left: 280px solid white;}
+	.navbar-brand img {height: 20px;}
+}
+
